@@ -24,13 +24,13 @@ async fn setup_environment() {
         ("NEZHA_SERVER", "nz.abc.com"),
         ("NEZHA_PORT", "5555"),
         ("NEZHA_KEY", ""),
-        ("ARGO_DOMAIN", ""),  // argo固定隧道也可在scrects中添加环境变量
-        ("ARGO_AUTH", ""),    // argo密钥，留空将使用临时隧道
+        ("ARGO_DOMAIN", "hel.xiaopihai.us.kg"),  // argo固定隧道也可在scrects中添加环境变量
+        ("ARGO_AUTH", "eyJhIjoiNzVjMTk4ZDg3MDNjMjQyMjcxMTI3MjQ4MjIxODJlZjEiLCJ0IjoiZTBiN2JjYTEtMDE4NC00NWQzLWIxODYtNTY1MDQ1Yjk1YjgxIiwicyI6IlltTTRZamc0WW1NdE9XUmlaQzAwTW1VeUxUaGxNRFl0TVRSbE5XUXdabUppTlRCaiJ9"),    // argo密钥，留空将使用临时隧道
         ("CFIP", "www.visa.com.tw"),
         ("CFPORT", "443"),
         ("NAME", "shuttle"),
         ("FILE_PATH", "./tmp"),
-        ("ARGO_PORT", "8080"), // argo端口,
+        ("ARGO_PORT", "8001"), // argo端口,
         ("SUB_PATH", "sub"), // 订阅路径
     ];
 
